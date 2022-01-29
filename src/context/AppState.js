@@ -31,8 +31,10 @@ const AppState = (props)=>{
         }, 2500);
     }
 
+    const newName = "Mani";
+
     return(
-        <AppContext.Provider value={{state, newState, update, updateNext}}>
+        <AppContext.Provider value={{state, newState, update, updateNext, newName}}>
             {props.children}
         </AppContext.Provider>
     )

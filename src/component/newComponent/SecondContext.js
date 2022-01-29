@@ -10,6 +10,7 @@ const SecondContext = () =>{
     return(
         <div>
             <h2>This is a Context for {b.newState.name} and course {b.newState.course} </h2>
+            <p>This is {b.newName}</p>
         </div>
     )
 }
